@@ -1,0 +1,15 @@
+.searchResultContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 150px;
+}
+
+.recipesListWrapper {
+  flex: 1; /* This gives it 1 part of the available space */
+}
+
+.selectedRecipeWrapper {
+  flex: 2; /* This gives it 2 parts of the available space */
+}
